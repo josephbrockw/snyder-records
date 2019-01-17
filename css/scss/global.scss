@@ -1,38 +1,90 @@
 // Global
-.title, {
-  text-align: center;
-  font-size: 3rem;
-  font-family: $cairo;
+.hero-text {
+  font-family: $main-font;
+  font-size: 65px;
+  font-weight: bold;
+  letter-spacing: 0.73px;
+  line-height: 76px;
+  margin-bottom: 0.75rem;
 }
 
+h1 {
+  color: $navy;
+  font-family: $main-font;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+h2 {
+  font-family: $main-font;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+
+
 h3 {
-  text-align: center;
-  font-size: 2rem;
-  font-family: $cairo;
-  // color: $tertiary;
-  margin-bottom: 1rem;
+  font-family: $main-font;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.button-text {
+  font-family: $main-font;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  display: inline-block;
 }
 
 .primary-section {
   h3 {
-    color: $tertiary;
+    color: $green;
   }
 }
 
 .secondary-section {
   h3 {
-    color: $primary;
+    color: $navy;
   }
 }
 
 p {
-  font-family: $cairo;
+  color: $gray;
+  font-family: $main-font;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 25px;
 }
 
-strong {
-  color: $tertiary;
+a.focus {
+  background: $acc-green;
+  color: $green;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: .75rem 3rem;
+  transition: .3s;
 }
 
+a.focus:hover {
+  background: $green;
+  color: $white;
+  cursor: pointer;
+
+
+}
+
+.gutters {
+  // padding: 0 4rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
 .desktop {
   display: none;
 }
@@ -41,31 +93,16 @@ strong {
   display: inline-block;
 }
 
+.center-text {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
 section {
-  padding: 2rem;
+  // padding: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-
-.section {
-  &.centered-text p {
-    text-align: center;
-  }
-
-  .title {
-    font-family: $cairo;
-    margin: 2rem 1rem 1rem;
-  }
-}
-
-p {
-  font-size: 1.2rem;
-  font-family: $cairo;
-  line-height: 1.8rem;
-  max-width: 900px;
-  margin: 1rem auto;
-  //text-align: center;
+  //justify-content: center;
 }
 
 a {
@@ -78,7 +115,7 @@ ul {
 
   li {
     color: white;
-    font-family: $cairo;
+    font-family: $main-font;
     font-size: 1.2rem;
     //text-align: center;
     list-style: none;
@@ -114,7 +151,7 @@ video {
 .icon {
   height: 120px;
   margin: 2rem auto;
-  color: $tertiary;
+  color: $green;
 }
 
 .coming-soon {
@@ -123,11 +160,11 @@ video {
 }
 .paypal-container {
   padding: 4rem 0;
-  //background: $secondary;
+  //background: $gray-blue;
   border-radius: 3px;
 
   .title {
-    color: white;
+    color: $white;
   }
 }
 .paypal-form {
@@ -138,43 +175,49 @@ video {
 .title.no-top-margin {
   margin: 0rem auto 2rem;
 }
-@media screen and (min-width: 700px) {
-  section {
-    min-height: 65vh;
-    padding: 5rem 12%;
-  }
 
-  .title {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .section {
-    p {
-      margin: 0 auto 1rem;
-    }
-  }
-
-  ul {
-    width: 60%;
-    margin: 0 auto;
-  }
-
-  .desktop {
-    display: inline-block;
-  }
-
-  .mobile {
-    display: none;
-  }
+.map {
+  height: 40rem;
 }
 
-@media screen and (max-width: 350px) {
-  .title {
-    font-size: 2.5rem;
-  }
+.map iframe {
+  height: 100%;
+  width: 100%;
+}
 
-  .focus {
-    display: block;
+@media screen and (min-width: 550px) {
+  .gutters {
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 }
+// @media screen and (min-width: 700px) {
+//   section {
+//     //min-height: 65vh;
+//     padding: 5rem 12%;
+//   }
+//
+//   .title {
+//     margin-top: 1rem;
+//     margin-bottom: 1rem;
+//   }
+//
+//   .section {
+//     p {
+//       margin: 0 auto 1rem;
+//     }
+//   }
+//
+//   ul {
+//     width: 60%;
+//     margin: 0 auto;
+//   }
+//
+//   .desktop {
+//     display: inline-block;
+//   }
+//
+//   .mobile {
+//     display: none;
+//   }
+// }

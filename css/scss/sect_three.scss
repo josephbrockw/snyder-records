@@ -1,32 +1,9 @@
 // section three
 #section-three .title {
-  color: $primary;
+  color: $navy;
 }
 
-.cta-button {
-  text-align: center;
-  color: white;
-  background: $primary;
-  display: inline-block;
-  padding: 1rem 2rem;
-  margin: 2rem auto;
-  width: 14rem;
-  font-size: 1.2rem;
-  transition: ease 500ms;
-  font-family: $cairo;
-  border-radius: 3px;
-  line-height: 1;
-  border: 0;
 
-  &:hover {
-    background: lighten($primary, 15%);
-    color: white;
-  }
-
-  &:visited {
-    color: white;
-  }
-}
 
 input.email {
   max-width: 600px;
@@ -36,11 +13,11 @@ input.email {
   margin: 2rem auto 0;
   font-size: 1.25rem;
   text-indent: .5rem;
-  border: 2px solid $primary;
+  border: 2px solid $navy;
   border-radius: 3px;
 
   &:focus {
-    outline-color: $primary;
+    outline-color: $navy;
   }
 
   &.mce_inline_error {
@@ -60,7 +37,7 @@ div#mce-success-response {
   width: 80%;
   display: block;
   margin: 1rem auto;
-  color: $primary;
+  color: $navy;
 }
 .submit-button {
   display: block

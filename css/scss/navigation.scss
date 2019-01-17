@@ -1,82 +1,114 @@
 // Navigation
 
 nav {
-  background: $secondary;
-  color: white;
-  height: 6rem;
+  background: $white;
+  height: 5rem;
 
   .logo {
     //display: inline-block;
-    height: 4rem;
-    margin: 1rem 0 0 2rem;
-  }
-
-  #subtext {
-    font-size: 60%;
-    display: inline-block;
+    height: 2.25rem;
+    margin: 1.375rem 0 0 0;
   }
 }
-
 .main-menu {
-  list-style: none;
-  padding: 0;
-  margin: 2.4rem 2rem auto 0;
-  float: right;
-  display: none;
-  //visibility: hidden;
-  transition: ease 500ms;
-  width: auto;
-
-  li {
-    display: inline-block;
-
-    a {
-      color: $primary;
-      font-family: $cairo;
-      padding: .5rem;
-      font-size: 1.2rem;
-      transition: ease 500ms;
-      //text-decoration: none;
-
-      &:hover {
-        color: darken($primary, 15%);
-      }
-    }
-
-    a.focus {
-      background: $primary;
-      color: white;
-      border-radius: 3px;
-
-      &:hover {
-        background: darken($primary, 15%);
-      }
-    }
-  }
+    display: none;
+    float: right;
+    list-style: none;
+    margin: 1.125rem 0 auto;
+    padding: 0;
+    transition: ease 500ms;
+    width: auto;
 }
-
 .dropdown {
-  position: absolute;
-  right: -2rem;
-  top: 3.5rem;
-  background: white;
-  padding: 2rem;
-  transition: ease 500ms;
-}
-.menu-icon {
-  height: 2.5rem;
-  width: 2.5rem;
-  position: absolute;
-  right: 2rem;
+  background: $white;
   display: inline-block;
-  top: 2rem;
+  padding: 2rem;
+  position: absolute;
+  right: -18rem;
+  top: 3.5rem;
+  transition: ease 500ms;
+  width: 14rem;
+
+}
+.main-menu li {
+  display: inline-block;
+  padding: .5rem 1.25rem;
+}
+//
+.main-menu li img {
+  vertical-align: middle;
 }
 
-@media screen and (min-width: 700px) {
+.dropdown li.focus {
+  margin-top: 2rem;
+}
+
+.main-menu li a {
+  color: $navy;
+  font-family: $main-font;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: .5rem .5rem .5rem 0;
+  transition: ease 500ms;
+  //text-decoration: none;
+}
+
+.main-menu li.focus a {
+  background: $acc-green;
+  color: $green;
+  padding: .75rem 3rem;
+}
+
+.main-menu li.focus a:hover {
+    background: $green;
+    color: $white;
+    //padding-right: 0;
+}
+//
+//     &:last-child {
+//       padding-right: 0;
+//     }
+//   }
+// }
+
+// .dropdown {
+  // background: $white;
+  // display: inline-block;
+  // height: 100vh;
+  // padding: 2rem;
+  // position: absolute;
+  // right: -12rem;
+  // top: 3.5rem;
+  // transition: ease 500ms;
+  // width: 12rem;
+// }
+//
+// .dropdown li {
+//   display: block;
+//   margin: 1rem 0;
+// }
+//
+// .dropdown li.focus {
+//   margin: 2rem 0;
+// }
+//
+.menu-icon {
+  display: inline-block;
+  float: right;
+  height: 2.5rem;
+  margin-top: 1.25rem;
+  width: 2.5rem;
+}
+
+@media screen and (min-width: 1100px) {
   .main-menu {
     display: inline-block;
   }
-
+  //
+  .dropdown {
+    display: none;
+  }
+  //
   .menu-icon {
     display: none;
   }

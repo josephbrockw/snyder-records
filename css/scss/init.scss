@@ -1,20 +1,28 @@
 // Variables
-$primary: #4abfab;
-$secondary: #34469d;
-$tertiary: #f7b15e;
-$black: #040d14;
+$primary: #001d5d;
+$navy: #001d5d;
+$secondary: #b8bfcf;
+$gray-blue: #b8bfcf;
+$tertiary: #68c242;
+$green: #68c242;
+$acc-green: #d9f0d0;
+$black: #000;
+$white: #fff;
+$gray: #525252;
+$off-white: #f6f6f6;
 $error: #f45531;
 
 $acc-primary: #eeaa7b;
 $acc-secondary: #66b9bf;
 
-@import url(https://fonts.googleapis.com/css?family=Chivo);
-@import url(https://fonts.googleapis.com/css?family=Cairo:400,700);
-$cairo: 'Chivo', sans-serif;
+$main-font: 'Karla', sans-serif;
 
 
 @import 'global';
 @import 'navigation';
+@import 'hero';
+@import 'bio';
+@import 'new-releases';
 @import 'primary-section';
 @import 'secondary-section';
 @import 'sect_three';

@@ -2,14 +2,14 @@
 
 footer {
   background: $secondary;
-  color: white;
+  color: $white;
   padding: 4rem 1rem;
   text-align: center;
   font-size: 1.2rem;
-  font-family: $cairo;
+  font-family: $main-font;
   line-height: 1.4rem;
 
   a {
-    color: white;
+    color: $white;
   }
 }
