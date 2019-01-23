@@ -1,15 +1,127 @@
 // Footer
 
 footer {
-  background: $secondary;
-  color: $white;
-  padding: 4rem 1rem;
-  text-align: center;
-  font-size: 1.2rem;
+  background: $navy;
+  color: white;
   font-family: $main-font;
-  line-height: 1.4rem;
+  padding: 5rem 2rem;
+}
 
-  a {
-    color: $white;
+footer p {
+  color: white;
+  margin: .25rem 0;
+  font-size: 1.1rem;
+}
+
+footer a {
+  color: $gray-blue;
+  font-size: 17px;
+}
+
+.upper-footer img {
+  height: 2.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.upper-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.upper-footer ul {
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 196px;
+  margin-bottom: 2rem;
+}
+
+.footer-menu {
+  justify-content: stretch;
+}
+
+.footer-menu li:first-child {
+  margin-bottom: .5rem;
+}
+
+.footer-menu-header {
+  color: white;
+  letter-spacing: .5px;
+  font-size: 18px;
+  margin-bottom: .5rem;
+}
+
+hr {
+  background-color: $gray-blue;
+  border: none;
+    height: 2px;
+}
+
+.lower-footer {
+  margin-top: 1.5rem;
+}
+
+.legal-menu,
+.social-menu {
+  display: inline;
+}
+
+.social-menu {
+  float: right;
+}
+
+.legal-menu li {
+  display: inline;
+  margin-right: 1.75rem;
+}
+
+.legal-menu a {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.social-menu li {
+  display: inline;
+  margin: 0 .5rem;
+}
+
+.social-menu img {
+  height: 1.2rem;
+}
+
+
+@media screen and (max-width: 530px) {
+  footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .upper-footer ul {
+    width: 8rem;
+  }
+
+  .lower-footer {
+    text-align: center;
+  }
+
+  .legal-menu,
+  .social-menu {
+    display: block;
+    float:none;
+  }
+
+  .legal-menu li:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1125px) {
+  footer {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }

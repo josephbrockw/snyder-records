@@ -1,33 +1,31 @@
 $(document).ready(function() {
+
   var $window = $(window);
 
   function checkWidth() {
     var windowSize = $window.width()
-    if(windowSize >= 1060) {
-      // $(".main-menu").removeClass("dropdown");
-      // $(".main-menu").css("display", "inline-block");
-      // $(".menu-icon").css("display", "none");
-    } else {
-      // $(".main-menu").addClass("dropdown");
-      $(".dropdown").addClass("hidden");
-      // $(".menu-icon").css("display", "inline-block");
 
+    if(windowSize < 1060) {
+      $(".dropdown").addClass("hidden");
+    } else {
     }
   }
   $window.resize(checkWidth())
   // Dropdown Menu for mobile
   $(".menu-icon").click(function(){
-    console.log('click');
-    if( $(".dropdown").hasClass("hidden")) {
-      // show menu
-      $(".dropdown").removeClass("hidden");
-      $(".dropdown").css("right", "0");
+
+    if( $(".dropdown").is(":hidden")) {
+      $(".dropdown").slideDown();
+      $(".menu-icon").attr("src", "img/close-menu.png")
     } else {
-      // Else, hide menu
-      $(".dropdown").addClass("hidden");
-      $(".dropdown").css("right", "-18rem");
+      $(".dropdown").slideUp();
+      $(".menu-icon").attr("src", "img/menu-icon.png");
     }
+
+
   });
+
+
 
   $num = $('.my-card').length;
   $even = $num / 2;
@@ -78,6 +76,28 @@ $(document).ready(function() {
 
   $('.right-arrow').click(function() {
     $('.active').next().trigger('click');
+  });
+
+    // Select List functionality
+  $(".select-input dt").click(function() {
+    if( $(".select-input dd ul").is(":hidden")) {
+      $(".select-input dd ul").slideDown();
+    } else {
+      $(".select-input dd ul").slideUp();
+
+    }
+  });
+
+  $(".select-input dd ul li a").click(function() {
+      var text = $(this).html();
+      $(".select-input dt").html(text);
+      $(".select-input dd ul").hide();
+  });
+
+  $(document).bind('click', function(e) {
+      var $clicked = $(e.target);
+      if (! $clicked.parents().hasClass("select-input"))
+          $(".select-input dd ul").hide();
   });
 
 });

@@ -1,2 +1,52 @@
-.hero-text{font-family:"Karla",sans-serif;font-size:65px;font-weight:bold;letter-spacing:0.73px;line-height:76px;margin-bottom:0.75rem}h1{color:#001d5d;font-family:"Karla",sans-serif;font-size:40px;font-weight:bold;letter-spacing:0;line-height:50px}h2{font-family:"Karla",sans-serif;font-size:30px;font-weight:bold;letter-spacing:0;line-height:40px}h3{font-family:"Karla",sans-serif;font-size:16px;font-weight:bold;letter-spacing:1px;line-height:25px}.button-text{font-family:"Karla",sans-serif;font-size:14px;letter-spacing:1px;line-height:18px;display:inline-block}.primary-section h3{color:#68c242}.secondary-section h3{color:#001d5d}p{color:#525252;font-family:"Karla",sans-serif;font-size:16px;letter-spacing:0px;line-height:25px}a.focus{background:#d9f0d0;color:#68c242;display:inline-block;margin-top:1rem;padding:.75rem 3rem;transition:.3s}a.focus:hover{background:#68c242;color:#fff;cursor:pointer}.gutters{padding-right:2rem;padding-left:2rem}.desktop{display:none}.mobile{display:inline-block}.center-text{max-width:600px;margin:auto;text-align:center}section{display:flex;flex-direction:column}a{text-decoration:none}ul{padding-bottom:1rem;margin:0 auto}ul li{color:white;font-family:"Karla",sans-serif;font-size:1.2rem;list-style:none;line-height:1.6rem}video{display:inline-block;margin:2rem auto;max-width:90%;width:800px}.mission ul,.mission ol{margin:1rem auto;font-size:110%;width:60%}.mission ul li,.mission ol li{margin:10px 0 0 0;list-style-type:circle;font-family:"Cairo";line-height:1.2rem}.icon{height:120px;margin:2rem auto;color:#68c242}.coming-soon{color:#afafaf !important;font-size:1rem}.paypal-container{padding:4rem 0;border-radius:3px}.paypal-container .title{color:#fff}.paypal-form{display:flex;justify-content:center}.title.no-top-margin{margin:0rem auto 2rem}.map{height:40rem}.map iframe{height:100%;width:100%}@media screen and (min-width: 550px){.gutters{padding-right:4rem;padding-left:4rem}}nav{background:#fff;height:5rem}nav .logo{height:2.25rem;margin:1.375rem 0 0 0}.main-menu{display:none;float:right;list-style:none;margin:1.125rem 0 auto;padding:0;transition:ease 500ms;width:auto}.dropdown{background:#fff;display:inline-block;padding:2rem;position:absolute;right:-18rem;top:3.5rem;transition:ease 500ms;width:14rem}.main-menu li{display:inline-block;padding:.5rem 1.25rem}.main-menu li img{vertical-align:middle}.dropdown li.focus{margin-top:2rem}.main-menu li a{color:#001d5d;font-family:"Karla",sans-serif;font-size:1rem;font-weight:bold;padding:.5rem .5rem .5rem 0;transition:ease 500ms}.main-menu li.focus a{background:#d9f0d0;color:#68c242;padding:.75rem 3rem}.main-menu li.focus a:hover{background:#68c242;color:#fff}.menu-icon{display:inline-block;float:right;height:2.5rem;margin-top:1.25rem;width:2.5rem}@media screen and (min-width: 1100px){.main-menu{display:inline-block}.dropdown{display:none}.menu-icon{display:none}}.hero{background-image:url("../../img/image1.png");background-position:0% 0%;background-repeat:no-repeat;background-size:cover;color:white;padding-bottom:10rem;padding-top:10rem;animation:animateforward forwards 10s ease-out}.hero p{color:white}@keyframes animateforward{0%{background-size:100%;background-position:center top}50%{background-size:120%;background-position:center 10%}100%{background-size:100%;background-position:center top}}.video-cta *{display:inline-block;margin-top:1.5rem;vertical-align:middle}.video-cta img{margin-right:.6rem}@media screen and (min-width: 1100px){.hero p{width:50%}}.bio-section{padding-top:5rem;padding-bottom:5rem}.bio>*{width:100%}.bio img{display:block;width:100%}.img-description{margin-top:2rem}@media screen and (min-width: 980px){.bio{display:flex;align-items:stretch;flex-direction:row;position:relative}.bio>*{width:50%}.bio img{overflow:hidden;display:auto;width:auto}.img-description{padding-left:2rem;background:white;margin-top:0}.img-description .focus{position:absolute;bottom:0}}.new-releases{background:#f6f6f6}.new-releases .center-text{margin:5rem auto}.new-releases p{color:#000}.card-carousel{display:flex;align-items:center;justify-content:center;position:relative}.card-carousel .my-card{display:flex;flex-direction:row;height:auto;min-width:36rem;position:relative;z-index:1;-webkit-transform:scale(1) translateY(-2rem);transform:scale(1) translateY(-2rem);opacity:0;cursor:pointer;pointer-events:none;transition:1s;margin:3rem 1rem;border-radius:3px;box-shadow:3px 0px 10px 1px #b8bfcf}.card-carousel .my-card.active{z-index:3;opacity:1;pointer-events:auto;transition:1s}.card-carousel .my-card.prev,.card-carousel .my-card.next{z-index:2;opacity:1;pointer-events:auto;transition:1s;opacity:0.6}.album-img{display:flex;background:#f6f6f6}.album-img img{width:auto;height:auto;display:block;margin:auto;padding:3rem 1.2rem}.album-description{padding:2.5rem 2rem;background:white}.album-description h2{letter-spacing:2;color:#001d5d;margin-bottom:0.5rem}.album-description h3{color:#68c242;margin-bottom:0.75rem}.slider-arrows{display:block;margin:auto}.slider-arrows>img{display:inline-block;margin:0 1.25rem 5rem}.primary-section{background:#fff}.primary-section .title,.primary-section p,.primary-section li{color:#001d5d}.secondary-section{background:#b8bfcf;color:#fff}.secondary-section .title{color:#68c242}#section-three .title{color:#001d5d}input.email{max-width:600px;width:90%;display:block;line-height:1.75rem;margin:2rem auto 0;font-size:1.25rem;text-indent:.5rem;border:2px solid #001d5d;border-radius:3px}input.email:focus{outline-color:#001d5d}input.email.mce_inline_error{border:1px solid #f45531;border-color:#f45531 !important}#mc_embed_signup div.mce_inline_error{background-color:transparent !important;color:#f45531 !important;width:100% !important;text-align:center !important}div#mce-success-response{width:80%;display:block;margin:1rem auto;color:#001d5d}.submit-button{display:block}footer{background:#b8bfcf;color:#fff;padding:4rem 1rem;text-align:center;font-size:1.2rem;font-family:"Karla",sans-serif;line-height:1.4rem}footer a{color:#fff}.curriculum-points{display:flex;flex-direction:column;justify-content:space-around}.curriculum-points .curriculum-sect{flex:1}@media screen and (min-width: 700px){.curriculum-points{flex-direction:row}}.team-member{display:inline-block;margin:auto}.team-member .headshot{height:20rem;width:20rem;max-width:90%;display:block;margin:1rem auto 0;border-radius:50%;border:5px solid #001d5d;overflow:hidden;background-size:cover}.team-member .headshot.joe{background-image:url("../../img/joe_mini.jpg")}.team-member .headshot.david{background-image:url("../../img/david-mini.jpg")}
-/*# sourceMappingURL=main.css.map */
+/*
+Error: File to import not found or unreadable: curriculum-points.
+        on line 31 of css/scss/init.scss
+
+26: @import 'contact';
+27: @import 'primary-section';
+28: @import 'secondary-section';
+29: @import 'sect_three';
+30: @import 'footer';
+31: @import 'curriculum-points';
+32: @import 'team_member';
+
+Backtrace:
+css/scss/init.scss:31
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:44:in `import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:391:in `run'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:22:in `load'
+/usr/local/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: curriculum-points.\A         on line 31 of css/scss/init.scss\A \A 26: @import 'contact';\A 27: @import 'primary-section';\A 28: @import 'secondary-section';\A 29: @import 'sect_three';\A 30: @import 'footer';\A 31: @import 'curriculum-points';\A 32: @import 'team_member';"; }

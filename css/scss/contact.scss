@@ -1,0 +1,186 @@
+.contact {
+  padding: 3rem 2rem;
+}
+
+.contact-form {
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.contact-form > * {
+  width: 100%;
+  border: none;
+  padding: .75rem;
+  background: $off-white;
+  margin: .75rem 0;
+  color: black;
+  font-family: $main-font;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 25px;
+}
+
+.contact-form select {
+  // width: 100%;
+  // border: none;
+  // padding: .75rem;
+  // background: grey;
+  // margin: .75rem 0;
+}
+
+.contact-form > *::placeholder,
+dt {
+  color: black;
+  font-family: $main-font;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 25px;
+}
+
+
+/* General dropdown styles */
+.select-input dd, .select-input dt, .select-input ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contact-form dl {
+  padding: 0;
+}
+
+.select-input dt {
+  padding: 0.75rem;
+}
+
+.select-input dd {
+  position: relative;
+  width: 100%;
+
+}
+/* DT styles for sliding doors */
+.select-input dt {
+  //background: #e4dfcb url(arrow.png) no-repeat scroll right center;
+  display: block;
+  padding-right: 20px;
+  //border: 1px solid #d4ca9a;
+  //width: 150px;
+}
+
+.select-input dt {
+  cursor: pointer;
+  // display: block;
+  // padding: 5px;
+}
+
+.select-input dt::after {
+  position: relative;
+  right: 0;
+  top: 10px;
+  float: right;
+  height: 16px;
+  width: 16px;
+  background: url('../../img/dropdown_triangle.svg');
+  content: " ";
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+/* UL styles */
+.select-input dd ul {
+  background: white none repeat scroll 0 0;
+  display: none;
+  list-style: none;
+  //padding: 5px 0px;
+  position: absolute;
+  top: -2px;
+  width: 100%;
+  min-width: 170px;
+}
+
+.select-input span.value {
+  display: none;
+}
+
+.select-input dd ul li a {
+  padding: .75rem;
+  display: block;
+}
+
+.select-input dd ul {
+  background: $gray-blue;
+}
+
+.select-input dd ul li a {
+  color: $navy;
+}
+
+.select-input dd ul li a:hover {
+  background: $green;
+  color: white;
+  transition: ease 500ms;
+}
+
+textarea {
+  height: 6rem;
+}
+
+textarea::placeholder {
+  color: black;
+}
+.form-image {
+  display: none;
+}
+
+input.focus {
+  font-family: $main-font;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  width:auto;
+  display: block;
+  margin: 1rem auto 0;
+}
+
+@media screen and (min-width: 700px) {
+  .contact {
+    padding: 0;
+  }
+  .form-container {
+    width: 600px;
+    display: inline-block;
+    margin: auto;
+    padding: 5rem 2rem;
+  }
+
+  .half-width {
+    width: 45%;
+  }
+
+  .half-width:nth-child(even) {
+    float: right;
+  }
+
+  input.focus {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .contact {
+    flex-direction: row;
+  }
+  .form-container {
+    height: 40rem;
+    width: 60%;
+    padding: 5rem;
+  }
+
+  .form-image {
+    display: inline-block;
+    width: auto;
+  }
+
+  .form-image img {
+    height: 50rem;
+  }
+}

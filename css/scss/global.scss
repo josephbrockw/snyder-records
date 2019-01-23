@@ -63,7 +63,8 @@ p {
   line-height: 25px;
 }
 
-a.focus {
+a.focus,
+input.focus {
   background: $acc-green;
   color: $green;
   display: inline-block;
@@ -72,7 +73,9 @@ a.focus {
   transition: .3s;
 }
 
-a.focus:hover {
+
+a.focus:hover ,
+input.focus:hover {
   background: $green;
   color: $white;
   cursor: pointer;

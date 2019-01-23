@@ -5,7 +5,6 @@ nav {
   height: 5rem;
 
   .logo {
-    //display: inline-block;
     height: 2.25rem;
     margin: 1.375rem 0 0 0;
   }
@@ -16,25 +15,26 @@ nav {
     list-style: none;
     margin: 1.125rem 0 auto;
     padding: 0;
-    transition: ease 500ms;
+    // transition: ease 500ms;
     width: auto;
 }
+
 .dropdown {
   background: $white;
-  display: inline-block;
+  display: none;
   padding: 2rem;
   position: absolute;
-  right: -18rem;
+  right: 0;
   top: 3.5rem;
-  transition: ease 500ms;
   width: 14rem;
 
 }
+
 .main-menu li {
   display: inline-block;
   padding: .5rem 1.25rem;
 }
-//
+
 .main-menu li img {
   vertical-align: middle;
 }
@@ -50,7 +50,6 @@ nav {
   font-weight: bold;
   padding: .5rem .5rem .5rem 0;
   transition: ease 500ms;
-  //text-decoration: none;
 }
 
 .main-menu li.focus a {
@@ -62,36 +61,8 @@ nav {
 .main-menu li.focus a:hover {
     background: $green;
     color: $white;
-    //padding-right: 0;
 }
-//
-//     &:last-child {
-//       padding-right: 0;
-//     }
-//   }
-// }
 
-// .dropdown {
-  // background: $white;
-  // display: inline-block;
-  // height: 100vh;
-  // padding: 2rem;
-  // position: absolute;
-  // right: -12rem;
-  // top: 3.5rem;
-  // transition: ease 500ms;
-  // width: 12rem;
-// }
-//
-// .dropdown li {
-//   display: block;
-//   margin: 1rem 0;
-// }
-//
-// .dropdown li.focus {
-//   margin: 2rem 0;
-// }
-//
 .menu-icon {
   display: inline-block;
   float: right;
@@ -104,11 +75,11 @@ nav {
   .main-menu {
     display: inline-block;
   }
-  //
+
   .dropdown {
     display: none;
   }
-  //
+
   .menu-icon {
     display: none;
   }

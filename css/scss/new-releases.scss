@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow:hidden;
 }
 
 .card-carousel .my-card {
@@ -90,4 +91,27 @@
 .slider-arrows > img {
   display: inline-block;
   margin: 0 1.25rem 5rem;
+}
+
+@media screen and (max-width: 700px) {
+  .new-releases .center-text {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+  .card-carousel .my-card {
+    //display: none;
+    flex-direction: column;
+    width: 100%;
+    min-width: auto;
+    margin-bottom: 0;
+  }
+
+  .card-carousel .my-card.active {
+    display: inline-block;
+  }
+
+  .album-img img {
+    padding: 1.2rem;
+  }
 }
