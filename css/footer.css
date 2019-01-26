@@ -1,9 +1,9 @@
-// Footer
+
 
 footer {
-  background: $navy;
+  background: #001d5d;
   color: white;
-  font-family: $main-font;
+  font-family: 'Karla', sans-serif;
   padding: 5rem 2rem;
 }
 
@@ -14,7 +14,7 @@ footer p {
 }
 
 footer a {
-  color: $gray-blue;
+  color: #b8bfcf;
   font-size: 17px;
 }
 
@@ -55,7 +55,7 @@ footer a {
 }
 
 hr {
-  background-color: $gray-blue;
+  background-color: #b8bfcf;
   border: none;
     height: 2px;
 }

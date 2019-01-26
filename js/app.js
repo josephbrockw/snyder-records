@@ -25,8 +25,6 @@ $(document).ready(function() {
 
   });
 
-
-
   $num = $('.my-card').length;
   $even = $num / 2;
   $odd = ($num + 1) / 2;
@@ -46,7 +44,10 @@ $(document).ready(function() {
     console.log($('.active').position().left);
 
     if ($(this).hasClass('next')) {
-      $('.card-carousel').stop(false, true).animate({left: '-=' + $slide});
+      // $('.card-carousel').css('overflow': 'default');
+      $('.card-carousel').delay(200).stop(false, true).animate({left: '-=' + $slide});
+      // $('.card-carousel').delay(200).css('overflow': 'hidden');
+      // $('.card-carousel').stop(false, true).animate({left: '-=' + $slide});
     } else if ($(this).hasClass('prev')) {
       $('.card-carousel').stop(false, true).animate({left: '+=' + $slide});
     }

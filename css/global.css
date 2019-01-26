@@ -1,6 +1,6 @@
-// Global
+
 .hero-text {
-  font-family: $main-font;
+  font-family: 'Karla', sans-serif;
   font-size: 65px;
   font-weight: bold;
   letter-spacing: 0.73px;
@@ -9,8 +9,8 @@
 }
 
 h1 {
-  color: $navy;
-  font-family: $main-font;
+  color: #001d5d;
+  font-family: 'Karla', sans-serif;
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 0;
@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-  font-family: $main-font;
+  font-family: 'Karla', sans-serif;
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 0;
@@ -28,7 +28,7 @@ h2 {
 
 
 h3 {
-  font-family: $main-font;
+  font-family: 'Karla', sans-serif;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -36,7 +36,7 @@ h3 {
 }
 
 .button-text {
-  font-family: $main-font;
+  font-family: 'Karla', sans-serif;
   font-size: 14px;
   letter-spacing: 1px;
   line-height: 18px;
@@ -45,19 +45,19 @@ h3 {
 
 .primary-section {
   h3 {
-    color: $green;
+    color: #68c242;
   }
 }
 
 .secondary-section {
   h3 {
-    color: $navy;
+    color: #001d5d;
   }
 }
 
 p {
-  color: $gray;
-  font-family: $main-font;
+  color: #525252;
+  font-family: 'Karla', sans-serif;
   font-size: 16px;
   letter-spacing: 0px;
   line-height: 25px;
@@ -65,8 +65,8 @@ p {
 
 a.focus,
 input.focus {
-  background: $acc-green;
-  color: $green;
+  background: #d9f0d0;
+  color: #68c242;
   display: inline-block;
   margin-top: 1rem;
   padding: .75rem 3rem;
@@ -76,8 +76,8 @@ input.focus {
 
 a.focus:hover ,
 input.focus:hover {
-  background: $green;
-  color: $white;
+  background: #68c242;
+  color: white;
   cursor: pointer;
 
 
@@ -115,16 +115,17 @@ a {
 ul {
   padding-bottom: 1rem;
   margin: 0 auto;
-
-  li {
-    color: white;
-    font-family: $main-font;
-    font-size: 1.2rem;
-    //text-align: center;
-    list-style: none;
-    line-height: 1.6rem;
-  }
 }
+
+ul li {
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.2rem;
+  //text-align: center;
+  list-style: none;
+  line-height: 1.6rem;
+}
+
 
 video {
   display: inline-block;
@@ -133,46 +134,25 @@ video {
   width: 800px
 }
 
-.mission {
-  ul,
-  ol {
-    //display:table;
-    margin: 1rem auto;
-    font-size: 110%;
-    width: 60%;
+.mission ul,
+.mission ol {
+  margin: 1rem auto;
+  font-size: 110%;
+  width: 60%;
+}
 
-    li {
-      margin: 10px 0 0 0;
-      //color: #ffffff;
-      list-style-type: circle;
-      font-family: "Cairo";
-      line-height: 1.2rem;
-    }
-  }
+.mission ul li,
+.mission ol li {
+  margin: 10px 0 0 0;
+  list-style-type: circle;
+  font-family: "Cairo";
+  line-height: 1.2rem;
 }
 
 .icon {
   height: 120px;
   margin: 2rem auto;
-  color: $green;
-}
-
-.coming-soon {
-  color: rgb(175,175,175) !important;
-  font-size: 1rem;
-}
-.paypal-container {
-  padding: 4rem 0;
-  //background: $gray-blue;
-  border-radius: 3px;
-
-  .title {
-    color: $white;
-  }
-}
-.paypal-form {
-  display: flex;
-  justify-content: center;
+  color: #68c242;
 }
 
 .title.no-top-margin {
@@ -194,33 +174,3 @@ video {
     padding-left: 4rem;
   }
 }
-// @media screen and (min-width: 700px) {
-//   section {
-//     //min-height: 65vh;
-//     padding: 5rem 12%;
-//   }
-//
-//   .title {
-//     margin-top: 1rem;
-//     margin-bottom: 1rem;
-//   }
-//
-//   .section {
-//     p {
-//       margin: 0 auto 1rem;
-//     }
-//   }
-//
-//   ul {
-//     width: 60%;
-//     margin: 0 auto;
-//   }
-//
-//   .desktop {
-//     display: inline-block;
-//   }
-//
-//   .mobile {
-//     display: none;
-//   }
-// }

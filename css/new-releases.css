@@ -1,5 +1,5 @@
 .new-releases {
-  background: $off-white;
+  background: #f6f6f6;
 }
 
 .new-releases .center-text {
@@ -7,7 +7,7 @@
 }
 
 .new-releases p {
-  color: $black;
+  color: black;
 }
 
 .card-carousel {
@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  overflow:hidden;
+  /* overflow:hidden; */
 }
 
 .card-carousel .my-card {
@@ -30,8 +30,6 @@
   opacity: 0;
   cursor: pointer;
   pointer-events: none;
-  //background: #2e5266;
-  //background: linear-gradient(to top, #2e5266, #6e8898);
   transition: 1s;
   margin: 3rem 1rem;
   border-radius: 3px;
@@ -55,7 +53,7 @@
 
 .album-img {
   display: flex;
-  background: $off-white;
+  background: #f6f6f6;
 }
 
 .album-img img {
@@ -74,12 +72,12 @@
 
 .album-description h2 {
   letter-spacing: 2;
-  color: $navy;
+  color: #001d5d;
   margin-bottom: 0.5rem;
 }
 
 .album-description h3 {
-  color: $green;
+  color: #68c242;
   margin-bottom: 0.75rem;
 }
 

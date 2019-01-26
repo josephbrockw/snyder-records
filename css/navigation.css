@@ -1,26 +1,26 @@
-// Navigation
+
 
 nav {
-  background: $white;
+  background: white;
   height: 5rem;
-
-  .logo {
-    height: 2.25rem;
-    margin: 1.375rem 0 0 0;
-  }
 }
+
+nav .logo {
+  height: 2.25rem;
+  margin: 1.375rem 0 0 0;
+}
+
 .main-menu {
     display: none;
     float: right;
     list-style: none;
     margin: 1.125rem 0 auto;
     padding: 0;
-    // transition: ease 500ms;
     width: auto;
 }
 
 .dropdown {
-  background: $white;
+  background: white;
   display: none;
   padding: 2rem;
   position: absolute;
@@ -44,8 +44,8 @@ nav {
 }
 
 .main-menu li a {
-  color: $navy;
-  font-family: $main-font;
+  color: #001d5d;;
+  font-family: 'Karla', sans-serif;;
   font-size: 1rem;
   font-weight: bold;
   padding: .5rem .5rem .5rem 0;
@@ -53,14 +53,14 @@ nav {
 }
 
 .main-menu li.focus a {
-  background: $acc-green;
-  color: $green;
+  background: #d9f0d0;
+  color: #68c242;
   padding: .75rem 3rem;
 }
 
 .main-menu li.focus a:hover {
-    background: $green;
-    color: $white;
+    background: #68c242;
+    color: white;
 }
 
 .menu-icon {
